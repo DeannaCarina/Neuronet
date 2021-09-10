@@ -1,4 +1,4 @@
-<img src="media/neuronetlogo.png" width="25%">
+<img src="media/neuronetlogo.png" width="40%">
 
 # Neuronet
 Hackathon Project in partnership with Trust In Soda. Deadline Monday 13th September 2022 @ 3pm.
@@ -244,9 +244,42 @@ The <em>Neuronet</em> logo was handmade by the team "Accessibility All-Stars" du
 
 ## Technologies
 ### Languages
+<ol>
+    <li><a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTML</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a></li>
+    <li><a href="https://www.markdownguide.org/" target="_blank">Markdown</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank">Bash</a></li>
+</ol>   
+
 ### Version Control
+<ol>
+    <li><a href="https://github.com/" target="_blank">Git & Github</a></li>
+    <li><a href="https://www.gitpod.io/" target="_blank">Gitpod & VS Code</a></li>
+</ol>
+
 ### Applications
-### Frameworks & Libraries
+<ol>
+    <li><a href="https://#/" target="_blank">Wireframe software</a></li>
+    <li><a href="https://slack.com/intl/en-gb/" target="_blank">Slack</a></li>
+    <li><a href="https://hackathon.codeinstitute.net/" target="_blank">Hackathon App</a></li>
+</ol>
+
+### Frameworks & Libraries & Programmes
+<ol>  
+    <li><a href="https://en.wikipedia.org/wiki/Django_(web_framework)" target="_blank">Django</a></li>
+    <li><a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome Developer Tools</a></li>
+    <li><a href="http://colormind.io/" target="_blank">Colormind.io</a></li>
+    <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
+    <li><a href="https://favicon.io/" target="_blank">Favicon.io</a></li>
+    <li><a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a></li>
+    <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">Jigsaw W3C CSS Validation Service</a></li>
+    <li><a href="https://jshint.com/" target="_blank">JSHint JavaScript Code Quality Tool</a></li>  
+    <li><a href="http://pep8online.com/checkresult" target="_blank">PEP8 ONLINE</a></li>
+    <li><a href="http://ami.responsivedesign.is/" target="_blank">Am I responsive</a></li>
+    <li><a href="https://wave.webaim.org/" target="_blank">WAVE Web Accessibility Evaluation Tool</a></li>  
+</ol><br> 
 
 ## Features
 ### Implemented Features
