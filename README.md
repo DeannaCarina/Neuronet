@@ -1,4 +1,4 @@
-<img src="https://github.com/DeannaCarina/Neuronet/blob/038b3770382ff0362e13cc00a55837cb911f1a71/neuronetlogo.png">
+<img src="media/neuronetlogo.png">
 
 # Neuronet
 Hackathon Project in partnership with Trust In Soda. Deadline Monday 13th September 2022 @ 3pm.
