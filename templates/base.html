@@ -32,16 +32,22 @@
 
     </head>
     <body>
-        <header class="container-fluid fixed-top"></header>
+
+        <header>
+            {% include 'includes/navigation.html' %}
+        </header>
+
         {% if messages %}
             <div class="message-container"></div>
         {% endif %}
         
-        {% block page_header %}
-        {% endblock %}
 
         {% block content %}
         {% endblock %}
+
+        <footer>
+            {% include 'includes/footer.html' %}
+        </footer>
 
         {% block postloadjs %}
         {% endblock %}
