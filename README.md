@@ -174,7 +174,7 @@ The application could also be aimed at recruiters that are more aware of the nee
     </tr>
 </table>
 As we can see from the table above, the viability is higher than the importance, which is good because that means most of the features are able to be implemented, however we must be careful not to implemnt features that would be unneccessary for the web application and decrease the usability of the site from a Neurodiverse peron's perspective. We must also be careful to stay within the scope of our own coding limitations - implementing features that we have little experience of could cause a high liklihood of bugs and errors in the web application which would in turn reduce the potential of a positive user experience.
-The table above has been plotte into a graph (below) to easily visualise the features that will be implemented into the web application and which ones won't be:
+The table above has been plotted into a graph (below) to easily visualise the features that will be implemented into the web application and which ones won't be:
 <ul>
     <li>The features in the pink section will be implemented</li>
     <li>The features in the grey section could be implemented at a later date but aren't necessary right now</li>
@@ -184,6 +184,23 @@ The table above has been plotte into a graph (below) to easily visualise the fea
 <img src="media/feasimporttable.png" width="50%">
 
 ### Scope
+Due to the pitfalls of developing a website based on the MVP (Minimum Viable Product) model such as lack of user experience and enjoyment due to a lack of content, it is sometimes more beneficial to develop a website based on MMP (Minimum Marketable Product). However due to the sprint nature and the time constraints we have for this project (a total of 4 full days from brief to presentation) we have to create the website based on MVP. This will allow the basic functions of the website to be implemented and have the website be usable but not neccessarily complete with all of the discussed features in place. One of the main advantages of creating an MVP is we can gauge the reaction of users before implementing more features, to ensure that the overall necessity for the web application is there, meaning less time is potentially wasted on a product that isn't going to be used by our target audience.  
+
+By using the MVP model we will:
+<ul>
+    <li>Create a clear website with enough content for the users to establish the usefulness of the web application</li>
+    <li>Result in a website with medium levels of UX, but still enough to be user friendly for our target audiences</li>
+    <li>Meet the needs of the business and user on the most basic levels</li>
+</ul>
+While following the MVP model, to meet the user and business goals, our website will include:
+<ul>
+    <li>A self-designed logo on all pages as assurance to the customer we are a trusted-business with our own identity</li>
+    <li>A nav-bar on all pages to be able to navigate to separate pages on the website</li>
+    <li>Links to associalted social media on all pages within the footer</li>
+    <li>sign up forms for users to be able to create personal profiles</li>
+    <li>Form for prospective employees to fill in as an alternative to a CV to show their talents and skills</li>
+    <li>A job board for prospective employers to post to, to be able to advertise current open roles in their business</li>
+</ul>
 
 ### Structure
 
