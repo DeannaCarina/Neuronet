@@ -203,6 +203,16 @@ While following the MVP model, to meet the user and business goals, our website 
 </ul>
 
 ### Structure
+**PROVISIONAL**
+We have chosen to carry out a non-linear method of design for this website application as it consists of multiple pages which might not necessarily be viewed in a particular order as each page has a different role to play. By having multiple pages we can separate information into logical sections to make it easier for the user to find what they are looking for particularly for the users that may find it more difficult to navigate websites. The navigation bar at the top of all of the pages allows the user to easily navigate to the page of the website they are most interested in. There are also certain pages (such as on the jobs board) that have their own internal navigation sections as each advertised job will take the user to the full job advertisement when they interact with the 'job card'.
+<br><br>
+<strong>On index.html</strong>: Separate sign in/sign up buttons for business owners and prospective employees? Each button brings up separate modal? If user doesn't have an account - link in modal to take to specific sign up page?<br><br>
+<strong>On signupbusiness.html</strong>: Form to fill in to choose username, email, password <br><br>
+<strong>On signupuser.html</strong>: Form to fill in to choose username, email, password <br><br>
+<strong>On profile.html</strong>: Form to fill in for user to state details (name, DOB, address etc etc), qualifications, talents, strengths, weaknesses, talk about themselves etc.<br><br>
+<strong>On company.html</strong>: Form to fill in for business to fill in business name, values, location etc etc. and a separate form to fill for advertising job posts - job title, job role, person spec, location etc.<br><br>
+<strong>On board.html</strong>: Page of jobs advertised by companies which are linked to the full job advert<br><br>
+<strong>On jobadvert.html</strong>: Full job advert including job title, job role, person spec, location etc. (everything the business owner inputted into the form in their profile page)<br><br>
 
 ### Skeleton
 (Insert Wireframes here)
