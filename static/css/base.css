@@ -11,7 +11,9 @@
 /*---------------------------------------- base.html ----------------------------------------*/
 
 /*---------- Navigation ----------*/
-
+.brand-title {
+    display: none;
+}
 
 
 
@@ -21,7 +23,12 @@
 
 
 /*---------- Footer ----------*/
-
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 
 
 
@@ -61,3 +68,8 @@
 
 
 /*---------------------------------------- Media Queries ----------------------------------------*/
+@media screen and (min-width: 990px) {
+    .brand-title {
+        display: inline;
+    }
+}
