@@ -1,4 +1,4 @@
-<img src="media/neuronetlogo.png">
+<img src="media/neuronetlogo.png" width="25%">
 
 # Neuronet
 Hackathon Project in partnership with Trust In Soda. Deadline Monday 13th September 2022 @ 3pm.
@@ -55,10 +55,133 @@ Project Facilitator: Tim Nelson
 ## UX
 ### Strategy
 #### Vision
+Neuronet is a specialised multifunctional application catering to the needs of neurodiverse individuals, as well as give the opportunity to companies to employ individuals from an under-represented talent pool. It will give neurodiverse individuals the opporunity to showcase their talents, strengths and weaknesses in a non-judgmental environment, by allowing them to complete an online resume and disclose the unique skillsets they have, as well as diclose the environments and situations that will allow them to communicate and work to the best of their abilities. The website will be highly accessible and take into consideration the requirement for an environment that meets the needs of these individuals through the use of colour schemes, high levels of user intuitiveness and giving the choice of varying means of communication with potential employers. It will allow companies to advertise current open roles via a job board, and arrange the interview process for applicants. The companies will be able to disclose the types of interviews that would be available such as video-call, e-mail, phone-call or face-to-face with stipulations such as only 1 or 2 interviewers or the interviewee may bring a friend or family member with them as support. Our overall vision is to have neurodiverse individuals to not be at a disadvantage because of their unique needs. 
+
 #### Aims
+<ol>
+    <li>To be a safe non-judgemental environment for neurodiverse individuals to showcase their talents</li>
+    <li>To be a highly user intuitive application for users with neurodiverse tendancies</li>
+    <li>To be an environment where companies can advertise their open job roles on a job-board to be inclusive of individuals who are neurodiverse</li>
+    <li>To be a web application for companies and prospective applicants to use during the job application process where application/interview and work environments can be discussed in advance to suit the needs of the neurodiverse individual</li>
+    <li>To be highly accessible in terms of colour scheme and contrast to cater for the needs of those with sensory needs</li>
+    <li>To be a learning tool for companies to ensure they are using best practices to ensure they are catering for the needs of neurodiverse individuals</li>
+    <li>To enable individuals with conditions such as social anxiety to be more comfortable in highly stressful situations which occur in the job application and interview processes</li>
+</ol>
+
 #### Target Audience
+We have two main target audiences:
+<ul>
+    <li>Individuals who are neurodiverse to include those with conditions such as: Autism, anxiety, depression, bipolar, BDD, OCD, phobias, dyslexia, tourettes and many many more.</li>
+    <li>Companies that want to improve their employee diversity by including individuals that have unique skills that arise from conditions mentioned above. </li>
+</ul>
+The application could also be aimed at recruiters that are more aware of the need to have neurodiverse individuals 'in the workplace'.
+
 #### User Stories
+##### As a new and returning neurodiverse user I want to:
+<ol>
+    <li>Know the purpose of the website as soon as I navigate to the home/landing page</li>
+    <li>Navigate the website quickly and effectively</li>
+    <li>Find everything in the website that I need to find with ease</li>
+    <li>Have visual aids and obvious calls to action throughout the site to aid in user intuitiveness</li>
+    <li>Have an up to date job board so I can see which jobs are available to apply for</li>
+    <li>Be able to log in to the website and create my personal profile for prospective employers to view</li>
+    <li>Ensure that my profile is viewable ONLY to prospective employers and not other users</li>
+    <li>Feel safe and understood despite any difficulties my condition may cause with no potential for judgement or discrimination</li>
+    <li>See the company ideals and values that I am applying for to ensure I will be a good fit</li>
+    <li>Be able to organise any interview process by describing my needs for the company within the application on my profile</li>
+</ol>
+
+##### As a new and returning potential employer/company I want to:
+<ol>
+    <li>Know the purpose of the website as soon as I navigate to the home/landing page</li>
+    <li>Navigate the website quickly and effectively</li>
+    <li>Find everything in the website that I need to find with ease</li>
+    <li>Be able to log in to the website and create a profile for my business/company for potential employees to view</li>
+    <li>Be able to post jobs to an easily accessible job board for potential employees to view</li>
+    <li>Ensure that our business profile is viewable to prospective employees only and not to other businesses</li>
+    <li>Increase our workforce diversity by employing more individuals with a Neurodiverse nature</li>
+    <li>Have an easy and intuitive application to be able to contact applicants and discuss their needs for the interview process</li>
+    <li>Highlight the adaptations that we are able to put in place to make the interview and worplace more accessible</li>
+</ol>
+
+##### As the developers we want to:
+<ol>
+    <li>Create an environment where neurodiverse individuals are comfortable and are not disadvantaged for thinking differently to others</li>
+    <li>Provide a platform for businesses who are lacking in diversity to have a way to find unique neurodiverse individuals to fill roles</li>
+</ol>
+
 #### Feasibility vs Importance
+<table>
+    <tr>
+        <th>Opportunity/Feature</th>
+        <th>Feasibility/Viability (score out of 5)</th>
+        <th>Level of Importance (score out of 5)</th>
+        <th>In or out?</th>
+    </tr>
+    <tr>
+        <td>Obvious role of the website demonstrated with hero image/video and/or capture text</td>
+        <td>5</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>Simple design with straightforward navigation to make it easier for the user to understand where to find information</td>
+        <td>5</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>Up-to-date job adverts on a job-board viewable by prospective employees</td>
+        <td>4</td>
+        <td>3</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A Fully accessible website able to be experienced by customers with visual and sensory impairments</td>
+        <td>4</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A logon system for potential employees to create a secure profile viewable by prospective employers</td>
+        <td>4</td>
+        <td>4</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A logon system for business/companies to advertise jobs in their workplace and to showcase their company values</td>
+        <td>4</td>
+        <td>3</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A straightforward form for prospective employees to complete enabling them to showcase their talents and skills while disclosing their weaknesses</td>
+        <td>5</td>
+        <td>4</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A way for website users with sensory difficulties to choose the colours of the website they are most comfortable with</td>
+        <td>4</td>
+        <td>2</td>
+        <td>Maybe In</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Average Viability x number of features:<br> 31</td>
+        <td>Sum of Importance:<br> 29</td>
+        <td></td>
+    </tr>
+</table>
+As we can see from the table above, the viability is higher than the importance, which is good because that means most of the features are able to be implemented, however we must be careful not to implemnt features that would be unneccessary for the web application and decrease the usability of the site from a Neurodiverse peron's perspective. We must also be careful to stay within the scope of our own coding limitations - implementing features that we have little experience of could cause a high liklihood of bugs and errors in the web application which would in turn reduce the potential of a positive user experience.
+The table above has been plotte into a graph (below) to easily visualise the features that will be implemented into the web application and which ones won't be:
+<ul>
+    <li>The features in the pink section will be implemented</li>
+    <li>The features in the grey section could be implemented at a later date but aren't necessary right now</li>
+    <li>The features in the turquoise section will not be implemented as it would be unwise to focus on these features until a later date</li>
+</ul>
+<img src="media/feasimportgraph.png"><br>
+<img src="media/feasimporttable.png" width="50%">
 
 ### Scope
 
