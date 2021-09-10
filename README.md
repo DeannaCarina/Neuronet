@@ -218,7 +218,7 @@ We have chosen to carry out a non-linear method of design for this website appli
 
 ### Skeleton
 The wireframes for the <em>Neuronet</em> website application were made with the <a href="" target="_blank">(Insert app name here)</a>, they can be found by viewing the images below. As the trend for mobile browser usage has been on an upwards trend for the last 10 years in Europe culminating in a crossover of hardware usage in the recent year, it could be assumed that these trends will continue and result in users opting more and more for a mobile browser instead of a desktop.<br>
-<img src="media/stats1" width="70%"><br>
+<img src="media/stats1.png" width="70%"><br>
 Due to this assumed continuing trend we have chosen to take a mobile-first approch to the design process. A Mobile-First Approach refers to the practice of designing and/or developing an online experience for mobile before designing for desktop web or any other device. Taking a Mobile First approach aims to reverse the workflow of designing for desktop and scaling down the design for mobile afterwards. Wireframes were made for mobile and desktop devices to ensure user friendly UX was employed throughout. 
 
 (Insert Wireframes here)
@@ -227,8 +227,18 @@ The wireframes were created during the website application's initial desgin proc
 
 ### Surface
 #### Typography
+As recommended in various literature, we have chosen to use sans-serif fonts throughout the website as these are more user friendly for users with specialised sensory needs. We used <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> to find the typography that we wanted to use for the website. 
+<br>
+
+**PROVISIONAL** 
+The fonts we used for the text body of the website was 'Lato' as this font is easy to read which is needed when there is large amounts of information to be read and absorbed by users, it has a modern feel, and is a popular font for many websites. The back-up font is 'Sans-Serif' just in case the font import link fails. The font used for headings is 'Roboto' this is also a very popular font recommended by many websites that cater to the needs of individuals with neurodivesity.
+
 #### Colour Scheme
+We have tried to make the colour scheme as user friendly as possible to cater to the needs of individuals with possible sensory overload disorders such as autism. After carrying out some research it was found that toned down blues and greens were the most favourable for these types of individuals, as well as neutral colours such as greys and beiges. 
+
 #### Icons
+The <em>Neuronet</em> logo was handmade by the team "Accessibility All-Stars" during the website development process. We felt this was a very important aspect to get done quickly as this would give us a feel for how the website would take shape. The logo itself is based on the neurodiversity logo which is a rainbow coloured infinity symbol, the neural pathways within the loop were added to symbolise the "Neuro" and to a point also "net" of the Neuronet brand name as this gives the users an inclination as to the purpose of the website. The brand name and tag line underneath the sympol were added to the symbol to again help the user identify the purpose of the website and to encourage inclusion by acknowledging everybody's ability to think differently and that this is a huge benefit to workplaces that are striving to be more diverse.
+
 #### Images (if used)
 #### Videos (if used)
 
