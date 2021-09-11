@@ -36,6 +36,7 @@
         <header>
             {% include 'includes/navigation.html' %}
         </header>
+        <hr class="rounded bg-dark mx-auto my-3">
 
         {% if messages %}
             <div class="message-container"></div>
@@ -45,7 +46,7 @@
         {% block content %}
         {% endblock %}
 
-        <footer>
+        <footer class="footer mt-auto py-3 bg-light">
             {% include 'includes/footer.html' %}
         </footer>
 
