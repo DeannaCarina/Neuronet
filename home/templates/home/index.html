@@ -2,6 +2,103 @@
 {% load static %}
 
 {% block content %}
+<!-- CALLOUT -->
+<div class="callout-container">    
+    <div class="row">
+        <div class="col-12">
+            <section class="callout jumbotron text-center">
+                <img src="../../../media/logonotext.png" alt="Neuronet logo" id="jumbo-logo">
+                <h1 class="jumbotron-header">Get connected with brilliant minds.</h1>
+                <div class="left-jumbo jumbo-div">
+                    <h2>Businesses</h2>
+                    <p class="lead">Sign up today to display your open job roles and connect with incredible people.</p>
+                    <button class="btn btn-lg btn--cta btn--grey" data-toggle="modalBusiness" data-target="#signUpModalBusiness">Sign Up!</button>
+                </div>
+                <div class="right-jumbo jumbo-div">
+                    <h2>Job Seekers</h2>
+                    <p class="lead">Sign up today to create your profile and start searching for your next role.</p>
+                    <button class="btn btn-lg btn--cta btn--grey" data-toggle="modalSeeker" data-target="#signUpModalSeeker">Sign Up!</button>
+                </div>             
+            </section>
+        </div>
+    </div>
+</div>   
+<!-- /.CALLOUT --> 
+<!-- MODAL FOR BUSINESSES-->
+<div class="modal" tabindex="-1" role="dialog" id="signUpModalBusiness">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sign up Neuronet as a Business/Company</h5>
+          <button type="button" class="close" data-dismiss="modalBusiness" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                    <label for="companyName">Company Name</label>
+                    <input type="companyName" class="form-control" id="companyName" placeholder="Enter Company Name">
+                </div>
+                <div class="form-group">
+                    <label for="emailAddredd">Email address</label>
+                    <input type="email" class="form-control" id="emailAddress" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="repeatPassword">Repeat Password</label>
+                    <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.MODAL -->
+  <!-- MODAL FOR JOB SEEKERS-->
+<div class="modal" tabindex="-1" role="dialog" id="signUpModalSeeker">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sign up to Neuronet as a Job Seeker</h5>
+          <button type="button" class="close" data-dismiss="modalSeeker" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                    <label for="nameInput">Name</label>
+                    <input type="nameInput" class="form-control" id="nameInput" placeholder="First Name & Surname">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="repeatPassword">Repeat Password</label>
+                    <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.MODAL -->
+
+
+
 
 
 
