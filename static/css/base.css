@@ -1,4 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /*---------- Toasts ----------*/
 .message-container{
     position:fixed;
@@ -57,8 +63,110 @@ a{
 
 
 /*----------------------------------------Homepage/index.html ----------------------------------------*/
+/* CONTENT CONTAINERS */
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.callout-container{
+    height: 100vh;
+    background: url(../../media/bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    background-color: rgba(99, 99, 99, 0.603);
+    margin-bottom: 150px;
+    width: 1000px;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead{
+    color: rgb(36, 36, 36);
+}
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: rgb(206, 206, 206);
+}
+
+.jumbo-div{
+    width: 400px;
+    display: inline-block;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    color: rgb(54, 54, 54);
+    margin: 10px;
+}
+.lead{
+    font-size: medium;
+    font-weight: bold;
+}
+
+#jumbo-logo{
+    width: 30%;
+    margin-bottom: 20px;
+}
 
 
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i{
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: grey;
+}
+
+/* BUTTONS */
+.btn--cta{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 175px;
+}
+.btn--grey{
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 61, 61);
+    border-color: rgb(168, 168, 168);
+}
+.btn--grey:hover,
+.btn--grey:active,
+.btn--grey:focus,
+.btn--grey:active:focus{
+    color: rgb(0, 0, 0);
+    background-color: rgb(185, 185, 185);
+    border-color: rgb(168, 168, 168);
+}
 
 
 
