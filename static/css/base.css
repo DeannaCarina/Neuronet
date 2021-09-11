@@ -143,12 +143,13 @@ a{
 }
 
 /* JUMBOTRON */
-.jumbotron{
+.jumbotron
     background-color: rgba(99, 99, 99, 0.603);
     margin-bottom: 70px;
     width: 1000px;
     padding: 40px;
     border-radius: 30px;
+    box-shadow: 0 40px 50px 0 rgba(88, 88, 88, 0.6), 0 10px 50px 0 rgba(0,0,0,0.7);
 }
 
 .jumbotron-header{
@@ -175,10 +176,10 @@ a{
     padding: 20px;
     color: rgb(54, 54, 54);
     margin: 10px;
+    box-shadow: 0 40px 50px 0 rgba(148, 148, 148, 0.6), 0 10px 50px 0 rgba(0,0,0,0.7);
 }
 .lead{
     font-size: medium;
-    font-weight: bold;
 }
 
 #jumbo-logo{
@@ -217,7 +218,7 @@ a{
 .btn--grey{
     color: rgb(255, 255, 255);
     background-color: rgb(61, 61, 61);
-    border-color: rgb(168, 168, 168);
+    border: 2px solid white;
 }
 .btn--grey:hover,
 .btn--grey:active,
