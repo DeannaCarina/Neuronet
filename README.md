@@ -220,11 +220,16 @@ We have chosen to carry out a non-linear method of design for this website appli
 <strong>On 404.html</strong>: Neuronet logo, appologies, redirect to index.html link<br>
 
 ### Skeleton
-The wireframes for the <em>Neuronet</em> website application were made with the <a href="" target="_blank">(Insert app name here)</a>, they can be found by viewing the images below. As the trend for mobile browser usage has been on an upwards trend for the last 10 years in Europe culminating in a crossover of hardware usage in the recent year, it could be assumed that these trends will continue and result in users opting more and more for a mobile browser instead of a desktop.<br>
+The wireframes for the <em>Neuronet</em> website application were made with Canva and Balsamiq, they can be found by viewing the images below. As the trend for mobile browser usage has been on an upwards trend for the last 10 years in Europe culminating in a crossover of hardware usage in the recent year, it could be assumed that these trends will continue and result in users opting more and more for a mobile browser instead of a desktop.<br>
 <img src="media/stats1.png" width="70%"><br>
 Due to this assumed continuing trend we have chosen to take a mobile-first approch to the design process. A Mobile-First Approach refers to the practice of designing and/or developing an online experience for mobile before designing for desktop web or any other device. Taking a Mobile First approach aims to reverse the workflow of designing for desktop and scaling down the design for mobile afterwards. Wireframes were made for mobile and desktop devices to ensure user friendly UX was employed throughout. 
 
-(Insert Wireframes here)
+<img src="media/wire1.png" width="50%">
+<img src="media/wire2.png" width="30%">
+<img src="media/wire3.png" width="30%">
+<img src="media/wire4.png" width="30%">
+<img src="media/wire5.png" width="30%">
+<img src="media/wire6.png" width="30%">
 
 The wireframes were created during the website application's initial desgin process, as such there are changes between the layout of the wireframes and the final layout/design of the finished website. 
 
