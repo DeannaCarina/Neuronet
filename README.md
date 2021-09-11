@@ -27,6 +27,9 @@ Hackathon Project in partnership with Trust In Soda. Deadline Monday 13th Septem
         <a href="#Deployment"><strong>Deployment</strong></a>
     </li>
     <li>
+        <a href="#Research"><strong>Research</strong></a>
+    </li>
+    <li>
        <a href="#Credits"><strong>Credits</strong></a> 
     </li>
     <li>
@@ -238,6 +241,7 @@ We have tried to make the colour scheme as user friendly as possible to cater to
 
 #### Icons
 The <em>Neuronet</em> logo was handmade by the team "Accessibility All-Stars" during the website development process. We felt this was a very important aspect to get done quickly as this would give us a feel for how the website would take shape. The logo itself is based on the neurodiversity logo which is a rainbow coloured infinity symbol, the neural pathways within the loop were added to symbolise the "Neuro" and to a point also "net" of the Neuronet brand name as this gives the users an inclination as to the purpose of the website. The brand name and tag line underneath the sympol were added to the symbol to again help the user identify the purpose of the website and to encourage inclusion by acknowledging everybody's ability to think differently and that this is a huge benefit to workplaces that are striving to be more diverse.
+<img src="media/logonotext.png" width="40%">
 
 #### Images (if used)
 #### Videos (if used)
@@ -298,6 +302,59 @@ The <em>Neuronet</em> logo was handmade by the team "Accessibility All-Stars" du
 ### Project Creation
 ### Project Deployment
 
+## Research
+### DEFINITION:
+Neurodiversity is defined by Dictionary.com as, “the variation and differences in neurological structure and function that exist among human beings, especially when viewed as being normal and natural rather than pathological.”
+To take it a step further, the Autistic Self Advocacy Network states, “Neurodiversity refers to variation in neurocognitive functioning. It is an umbrella term that encompasses neurocognitive differences such as autism, attention deficit hyperactivity disorder (ADHD), dyslexia, Tourette’s syndrome, anxiety, obsessive-compulsive disorder, depression, intellectual disability and schizophrenia, as well as ‘normal’ neurocognitive functioning, or neurotypicality. Neurodivergent individuals are those whose brain functions differ from those who are neurologically typical, or neurotypical.”
+
+### FACTS:
+The neurodiverse population remains a largely untapped talent pool. Unemployment runs as high as 80% (this figure includes people with more-severe disorders, who are not candidates for neurodiversity programs). When they are working, even highly capable neurodiverse people are often underemployed.
+Finding and keeping top talent is an ongoing challenge for employers, especially in high-tech sectors. The Harvard Business Review reported in 2017 that the European Union (EU) was facing an impending shortage of 800,000 information technology (IT) workers, many in strategically important and rapidly expanding areas. Increasing demand for candidates to fill jobs in specialized fields like information technology, banking and financial services, and healthcare is producing talent shortages. More and more, employers are turning to previously unexplored talent pools to help meet staffing needs. A growing number of companies have created programs specifically focused on recruiting and hiring neurodivergent people, including those on the autism spectrum.
+
+A growing number of prominent companies have reformed their HR processes in order to access neurodiverse talent; among them are SAP, Hewlett Packard Enterprise (HPE), Microsoft, Willis Towers Watson, Ford, and EY. Many others, including Caterpillar, Dell Technologies, Deloitte, IBM, JPMorgan Chase, and UBS, have start-up or exploratory efforts under way.
+
+### BENEFITS FOR THE BUSINESS:
+Employers who hire neurodiverse employees note their aptitude for roles that require attention to detail, ability to detect patterns and capacity for inferential reasoning, as well as strong skills in mathematics, coding and other data-driven processes. Neurodiverse employees are also often lauded for exhibiting loyalty and timeliness, and for offering innovative, creative perspectives to improve policies and procedures that can increase a company’s bottom line. Employers consistently report that their neurodiverse teams prove more effective and productive than those without neurodiverse representation.
+Other capabilities that people with neurocognitive disabilities possess that benefit employers include:
+<ul>
+    <li>Keen accuracy and ability to detect errors</li>
+    <li>High levels of concentration</li>
+    <li>Strong recall and detailed factual knowledge</li>
+    <li>Reliability and persistence</li>
+    <li>Technical strengths</li>
+    <li>Appreciation for routine/repetition</li>
+</ul>
+
+While neurodiversity hiring programs are often known to seek out employees that prefer technological duties such as software engineering or tech operations, or repetitive tasks, such as data-entry or filing, there are a wide variety of jobs and responsibilities that neurodiverse employees can perform. These include (but are certainly not limited to) product management, human resources, banking and customer service.
+
+In addition, research has shown that consumers prefer doing business with companies that employ people with disabilities. Given the high percentage of neurodivergence within the average customer base, having people on staff that represent the communities a company serves demonstrates thoughtfulness and good customer service.
+
+Neurodiverse people frequently need workplace accommodations, such as headphones to prevent auditory overstimulation, to activate or maximally leverage their abilities. Sometimes they exhibit challenging eccentricities. In many cases the accommodations and challenges are manageable and the potential returns are great. But to realize the benefits, most companies would have to adjust their recruitment, selection, and career development policies to reflect a broader definition of talent.
+
+### BENEFITS FOR THE EMPLOYEE:
+Neurodiverse hiring also offers benefits to other employees. Many people with neurocognitive disabilities, specifically those with autism, share experiences of discrimination and stigma, both in hiring processes and work settings, based on their perceived traits. However, many organizations find that having neurodiverse employees improves overall employee morale and positively affects organizational culture.
+Often, neurotypical employees appreciate being educated about neurodiversity and say they tend to experience a greater sense of company pride when part of an inclusive workplace. Moreover, when neurodiverse employees are given job responsibilities that align with their skills and abilities, they—like most neurotypical employees—often report greater confidence and self-esteem. Finally, neurodiverse employees frequently express greater comfort with interpersonal interactions when employers consider workplace environmental factors and make appropriate accommodations for their needs, such as providing social skills, teamwork and office behaviour training.
+
+### WHY IS THE WEB APPLICATION NEEDED?
+Being neurodivergent will usually amount to a disability under the Equality Act 2010. This means the organisation has a legal obligation to make reasonable adjustments to the workplace and the individual's role that will remove or minimise any disadvantage to them.
+
+Having a workplace that is set up to proactively think about what can be done to support the needs of each employee can make it much easier to identify and implement adjustments for neurodivergent staff.
+
+Remember, a person is disabled if they have 'a physical or mental impairment' which has 'a substantial and long-term adverse effect' on their 'ability to carry out normal day-to-day activities'. Therefore, someone may not have been diagnosed with a neurodivergence but still be considered to have a disability under the Equality Act 2010.
+
+Neurodiversity is an aspect of diversity that enhances the workplace in numerous ways. People with neurocognitive disabilities have talents, perspectives and skills that can be distinctly beneficial in many work environments. More and more employers are beginning to understand these benefits and develop hiring initiatives that focus on recruiting neurodiverse workers. While these efforts are more common in larger corporations, they have proven beneficial for businesses of all sizes in a variety of industries. Hiring neurodiverse employees can provide companies with a competitive edge that brings measurable benefits, both financially and in terms of workplace culture.
+
+Askearn’s Neurodiversity in the workplace inclusion checklist states that it is fundamental for employers to create applicant referral, inclusive interview and screening processes by:
+<ul>
+    <li>Consider developing an alternative interview process for neurodivergent applicants</li>
+    <li>Design a process to assess applicant skills to match these skills with required tasks</li>
+    <li>Identify a local/regional service provider(s) who can assist with identifying applicants</li>
+</ul>
+
+### SUPPLEMENTAL READING: 
+Catherine Bean tells her personal story of working in the Office for National Statistics: https://www.gov.uk/government/news/neurodiversity-in-the-workplace 
+
+
 ## Credits
 ### Code
 ### Content
@@ -308,3 +365,6 @@ The <em>Neuronet</em> logo was handmade by the team "Accessibility All-Stars" du
 ## Screenshots
 
 ## References
+[1] "Neurodiversity in the Workplace", Askearn.org, 2021. [Online]. Available: https://askearn.org/topics/neurodiversity-in-the-workplace/. [Accessed: 11- Sep- 2021].
+[2]Webarchive.nationalarchives.gov.uk, 2021. [Online]. Available: https://tinyurl.com/tv3wt3d8. [Accessed: 11- Sep- 2021].
+[3]"Neurodiversity Is a Competitive Advantage", Harvard Business Review, 2021. [Online]. Available: https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage. [Accessed: 11- Sep- 2021].
