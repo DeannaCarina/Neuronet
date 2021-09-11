@@ -224,12 +224,9 @@ The wireframes for the <em>Neuronet</em> website application were made with Canv
 <img src="media/stats1.png" width="70%"><br>
 Due to this assumed continuing trend we have chosen to take a mobile-first approch to the design process. A Mobile-First Approach refers to the practice of designing and/or developing an online experience for mobile before designing for desktop web or any other device. Taking a Mobile First approach aims to reverse the workflow of designing for desktop and scaling down the design for mobile afterwards. Wireframes were made for mobile and desktop devices to ensure user friendly UX was employed throughout. 
 
-<img src="media/wire1.png" width="50%">
-<img src="media/wire2.png" width="30%">
-<img src="media/wire3.png" width="30%">
-<img src="media/wire4.png" width="30%">
-<img src="media/wire5.png" width="30%">
-<img src="media/wire6.png" width="30%">
+<img src="media/wire1.png" width="50%"><img src="media/wire2.png" width="30%">
+<img src="media/wire3.png" width="30%"><img src="media/wire4.png" width="30%">
+<img src="media/wire5.png" width="30%"><img src="media/wire6.png" width="30%">
 
 The wireframes were created during the website application's initial desgin process, as such there are changes between the layout of the wireframes and the final layout/design of the finished website. 
 
@@ -245,10 +242,12 @@ The fonts we used for the text body of the website was 'Lato' as this font is ea
 We have tried to make the colour scheme as user friendly as possible to cater to the needs of individuals with possible sensory overload disorders such as autism. After carrying out some research it was found that toned down blues and greens were the most favourable for these types of individuals, as well as neutral colours such as greys and beiges. 
 
 #### Icons
-The <em>Neuronet</em> logo was handmade by the team "Accessibility All-Stars" during the website development process. We felt this was a very important aspect to get done quickly as this would give us a feel for how the website would take shape. The logo itself is based on the neurodiversity logo which is a rainbow coloured infinity symbol, the neural pathways within the loop were added to symbolise the "Neuro" and to a point also "net" of the Neuronet brand name as this gives the users an inclination as to the purpose of the website. The brand name and tag line underneath the sympol were added to the symbol to again help the user identify the purpose of the website and to encourage inclusion by acknowledging everybody's ability to think differently and that this is a huge benefit to workplaces that are striving to be more diverse.
+The <em>Neuronet</em> logo was handmade by the team "Accessibility All-Stars" during the website development process. We felt this was a very important aspect to get done quickly as this would give us a feel for how the website would take shape. The logo itself is based on the neurodiversity logo which is a rainbow coloured infinity symbol, the neural pathways within the loop were added to symbolise the "Neuro" and to a point also "net" of the Neuronet brand name as this gives the users an inclination as to the purpose of the website. The brand name and tag line underneath the sympol were added to the symbol to again help the user identify the purpose of the website and to encourage inclusion by acknowledging everybody's ability to think differently and that this is a huge benefit to workplaces that are striving to be more diverse.<br>
 <img src="media/logonotext.png" width="40%">
 
 #### Images (if used)
+<img src="media/bg.png"><br>
+
 #### Videos (if used)
 
 ## Technologies
@@ -304,8 +303,86 @@ The <em>Neuronet</em> logo was handmade by the team "Accessibility All-Stars" du
 ### Performance Testing
 
 ## Deployment
+A live demo of the website can be found <a href="https://neuronet2021.herokuapp.com/" target="_blank">**HERE**</a><br>
+
 ### Project Creation
+This project was created on GitHub and Edited in GitPod by carrying out the following:
+<ol>
+    <li>A new repository was created using 'Code-Instutute-Org/gitpod-full-template'</li>
+    <li>A meaningful name was given to the new repository and 'Create Repository' was selected</li>
+    <li>The repository was then opened on GitHub by clicking the 'Gitpod' button to build the GitPod workspace which would allow us to build and edit the code used to make the <em>SNeuronet</em> website/application</li>
+    <li>Version control was used throughout the project using the following commands in the terminal using Bash
+        <ul>
+            <li>git pull origin main - to pull the latest updated files from the main branch to the local repository</li>
+            <li>git checkout -b "branch name" - to move to a new branch off the main branch</li>
+            <li>git add . <strong>OR</strong> git add "file name" - to stage the changes and get them ready for being committed to the local repo.</li> 
+            <li>git commit -m "Description of the update" - to save the change and commit the change to the local repo</li>
+            <li>git push origin "branch name" - to push all committed shanges to the GitHub repo associated with the GitPod workspace</li>
+            <li>The pushed changes were then reviewed by fellow collaborator(s) and merged with the main branch</li>
+        </ul>
+    </li>
+
 ### Project Deployment
+This project was deployed via Heroku by carrying out the following:
+<ol>
+    <li>Create the gitpod repo from the template via the gitpod button in github.</li>
+    <li>Log in to Heroku and create a new app.</li>
+    <li>Set the buildpacks in the Heroku app to Python and NodeJS in that order.</li>
+    <li>Complete the config vars section</li>
+    <li>Link Heroku and GitHub accounts together</li>
+    <li>Select the repo (via Heroku) that I wanted to make an app of and give it a name in Heroku.</li>
+    <li>Click on deploy.</li>
+    <li>Manual deployments were employed to reduce the risk of errors and failed website updates</li>
+</ol>
+
+### Local Deployment
+There are many ways to deploy the project locally on your own device. The ways we will explain here are: Forking, Cloning, GitHub Desktop and Zip Exctraction, the steps in these processes are outlined below:
+
+#### Forking the GitHub repo
+If you want to make changes to the repo without affecting it, you can make a copy of it by 'Forking' it. This will make sure that the original repo remains unchanged.
+<ol>
+    <li>Log in to your GitHub account</li>
+    <li>Navigate to the repository <a href="https://github.com/DeannaCarina/Neuronet"><strong>HERE</strong></a></li>
+    <li>Select the 'Fork' button in the top right corner of the page (under your account image)</li>
+    <li>The repo has now been copied into your own repos and you can work on it in your chosen IDE</li>
+    <li>If you have any suggestions to make regards to the code to make the site better, you can put in a pull request</li>
+    <li>If you want to create a web-app from the repo please follow the instructions in "Project Deployment"</li>
+</ol>
+
+#### Cloning the repo with GitPod
+<ol>
+    <li>Log in to your GitHub account</li>
+    <li>Navigate to the Repository <a href="https://github.com/DeannaCarina/Neuronet"><strong>HERE</strong></a></li>
+    <li>Select the 'Code' button above the file list on the right had side</li>
+    <li>Ensure HTTPS is selected and click the clipboard on the right of the URL to copy it</li>
+    <li>Open a new workspace in GitPod</li>
+    <li>In the bash terminal type 'git clone [copy url here from step 4]'</li>
+    <li>Press enter - the IDE will clone and download the repo</li>
+    <li>You can then type 'python3 -m http.server' to host the website locally - this will not run the python file, only allow you to check how the web-app looks.</li>
+    <li>If you want to create a web-app from the repo please follow the instructions in "Project Deployment"</li>
+</ol>
+
+#### Github Desktop
+<ol>
+    <li>Log in to your GitHub account</li>
+    <li>Navigate to the Repository <a href="https://github.com/DeannaCarina/Neuronet"><strong>HERE</strong></a></li>
+    <li>Select the 'Code' button above the file list on the right had side</li>
+    <li>Select 'Open with GitHub Desktop'</li>
+    <li>If you haven't already installed GitHub desktop application - you will need to follow the relevant steps to do this</li>
+    <li>The repo will then be copied locally onto your machine</li>
+    <li>If you want to create a web-app from the repo please follow the instructions in "Project Deployment"</li>
+</ol>
+
+#### Download and extract the zip directly from GitHub
+<ol>
+    <li>Log in to your GitHub account</li>
+    <li>Navigate to the Repository <a href="https://github.com/DeannaCarina/Neuronet"><strong>HERE</strong></a></li>
+    <li>Select the 'Code' button above the file list on the right had side</li>
+    <li>Select 'Download Zip'</li>
+    <li>Once you have the Zip downloaded, open it with your prefered file decompression software</li>
+    <li>You can then drag and drop the files from the folder into your chosen IDE or view/edit them on your local machine</li>
+    <li>If you want to create a web-app from the repo please follow the instructions in "Project Deployment"</li>
+</ol>
 
 ## Research
 ### DEFINITION:
@@ -371,5 +448,7 @@ Catherine Bean tells her personal story of working in the Office for National St
 
 ## References
 [1] "Neurodiversity in the Workplace", Askearn.org, 2021. [Online]. Available: https://askearn.org/topics/neurodiversity-in-the-workplace/. [Accessed: 11- Sep- 2021].
+<br><br>
 [2]Webarchive.nationalarchives.gov.uk, 2021. [Online]. Available: https://tinyurl.com/tv3wt3d8. [Accessed: 11- Sep- 2021].
+<br>
 [3]"Neurodiversity Is a Competitive Advantage", Harvard Business Review, 2021. [Online]. Available: https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage. [Accessed: 11- Sep- 2021].
