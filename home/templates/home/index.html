@@ -9,6 +9,27 @@
             <section class="callout jumbotron text-center">
                 <img src="../../../media/logonotext.png" alt="Neuronet logo" id="jumbo-logo">
                 <h1 class="jumbotron-header">Get connected with brilliant minds.</h1>
+<<<<<<< HEAD
+                {% if request.user.is_authenticated %}
+                  <div class="left-jumbo jumbo-div">
+                      <h2>Businesses</h2>
+                      <p class="lead">Sign up today to display your open job roles and connect with incredible people.</p>
+                      <button class="btn btn-lg btn--cta btn--grey" data-toggle="modalBusiness" data-target="#signUpModalBusiness">Sign Up!</button>
+                  </div>
+                  <div class="right-jumbo jumbo-div">
+                      <h2>Job Seekers</h2>
+                      <p class="lead">Sign up today to create your profile and start searching for your next role.</p>
+                      <button class="btn btn-lg btn--cta btn--grey" data-toggle="modalSeeker" data-target="#signUpModalSeeker">Sign Up!</button>
+                  </div>   
+              {% else %}
+              
+              
+
+
+
+
+              {% endif %}
+=======
                 <div class="left-jumbo jumbo-div">
                     <h2>Businesses</h2>
                     <p class="lead">Sign up today to display your open job roles and connect with incredible people.</p>
@@ -19,6 +40,7 @@
                     <p class="lead">Sign up today to create your profile and start searching for your next role.</p>
                     <button class="btn btn-lg btn--cta btn--grey" data-bs-toggle="modal" data-bs-target="#signUpModalSeeker">Sign Up!</button>
                 </div>             
+>>>>>>> origin/main
             </section>
         </div>
     </div>
