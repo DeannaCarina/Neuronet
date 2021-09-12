@@ -11,16 +11,16 @@
             <section class="callout jumbotron text-center">
                 <img src="../../../media/logonotext.png" alt="Neuronet logo" id="jumbo-logo">
                 <h1 class="jumbotron-header">Get connected with brilliant minds.</h1>
-                  <div class="left-jumbo jumbo-div">
-                      <h2>Businesses</h2>
-                      <p class="lead">Sign up today to display your open job roles and connect with incredible people.</p>
-                      <button class="btn btn-lg btn--cta btn--grey" data-toggle="modalBusiness" data-target="#signUpModalBusiness">Sign Up!</button>
+                <div class="left-jumbo jumbo-div">
+                    <h2>Businesses</h2>
+                    <p class="lead">Create an account to display your open job roles and connect with incredible people.</p>
+                    <button class="btn btn-lg btn--cta btn--grey" data-bs-toggle="modal" data-bs-target="#signUpModalBusiness">Sign Up!</button>
                   </div>
                   <div class="right-jumbo jumbo-div">
-                      <h2>Job Seekers</h2>
-                      <p class="lead">Sign up today to create your profile and start searching for your next role.</p>
-                      <button type="button" class="btn btn-lg btn--cta btn--grey" data-toggle="modal" data-target="#userProfileModal">Sign Up!</button>
-                  </div> 
+                    <h2>Job Seekers</h2>
+                    <p class="lead">Create an account to create your profile and start searching for your next role.</p>
+                    <button class="btn btn-lg btn--cta btn--grey" data-bs-toggle="modal" data-bs-target="#userProfileModal">Sign Up!</button>
+                  </div>
             </section>
         </div>
     </div>
@@ -28,11 +28,17 @@
 <!-- /.CALLOUT --> 
 <!-- MODAL FOR BUSINESSES-->
 <div class="modal" tabindex="-1" role="dialog" id="signUpModalBusiness">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Sign up to Neuronet as a Business/Company</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Create a company account on Neuronet</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <label for="companyName">Company Name</label>
+          <input type="companyName" class="form-control" id="companyName" placeholder="Enter Company Name">
         </div>
         <div class="modal-body">
             <form method="POST" enctype="multipart/form-data" action="{% url 'create_profile' form_type='companyProfile' %}">
@@ -56,11 +62,23 @@
                 <button type="button" class="btn btn-primary">Submit</button>
             </form>
         </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="repeatPassword">Repeat Password</label>
+          <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+        </div><br>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </form>
       </div>
     </div>
   </div>
-  <!-- /.MODAL -->
-  <!-- MODAL FOR JOB SEEKERS-->
+</div>  
+<!-- /.MODAL -->
+<!-- MODAL FOR JOB SEEKERS-->
 <div class="modal" tabindex="-1" role="dialog" id="userProfileModal" aria-labelledby="userProfileModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
