@@ -66,9 +66,7 @@ a{
 }
 
 .custom-nav-icon {
-    display: block;
-    text-align: center;
-    font-size: 1.5rem;
+    display: none;
 }
 /* Code to change "Already a member? Log in" background */
 /* .unauthorized-loginrequest {
@@ -324,5 +322,10 @@ a{
 @media screen and (min-width: 990px) {
     .brand-title {
         display: inline;
+    }
+    .custom-nav-icon {
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
     }
 }
