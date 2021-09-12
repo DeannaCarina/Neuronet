@@ -1,4 +1,6 @@
 {% extends "account/base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
 
 {% load i18n %}
 
@@ -11,6 +13,7 @@
 
 <form action="{% url 'account_email' %}" class="email_list" method="post">
 {% csrf_token %}
+{{ form|crispy }}
 <fieldset class="blockLabels">
 
   {% for emailaddress in user.emailaddress_set.all %}

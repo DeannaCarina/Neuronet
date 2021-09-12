@@ -35,26 +35,25 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <form>
-                <div class="form-group">
-                    <label for="companyName">Company Name</label>
-                    <input type="companyName" class="form-control" id="companyName" placeholder="Enter Company Name">
-                </div>
-                <div class="form-group">
-                    <label for="emailAddredd">Email address</label>
-                    <input type="email" class="form-control" id="emailAddress" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Password">
-                </div>
-                <div class="form-group">
-                    <label for="repeatPassword">Repeat Password</label>
-                    <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-                </div><br>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Submit</button>
+            <form method="POST" enctype="multipart/form-data" action="{% url 'create_profile' form_type='companyProfile' %}">
+                {% csrf_token %}
+                {{ form.company_name|as_crispy_field }}
+                {{ form.email|as_crispy_field }}
+                {{ form.town_or_city|as_crispy_field }}
+                {{ form.country|as_crispy_field }}
+                {{ form.company_description|as_crispy_field }}
+                {{ form.image|as_crispy_field }}
+                {{ form.video|as_crispy_field }}
+                {{ form.social_type_1|as_crispy_field }}
+                {{ form.social_link_1|as_crispy_field }}
+                {{ form.social_type_2|as_crispy_field }}
+                {{ form.social_link_2|as_crispy_field }}
+                {{ form.social_type_3|as_crispy_field }}
+                {{ form.social_link_3|as_crispy_field }}
+                {{ form.social_type_4|as_crispy_field }}
+                {{ form.social_link_4|as_crispy_field }}
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
             </form>
         </div>
       </div>
@@ -72,38 +71,38 @@
             </button>
         </div>
         <div class="modal-body">
-            <form id="profileForm" method="POST" enctype="multipart/form-data" action="{% url 'create_profile' %}">
+            <form method="POST" enctype="multipart/form-data" action="{% url 'create_profile' form_type='userProfile' %}">
                 {% csrf_token %}
                 {{ form.full_name|as_crispy_field }}
                 {{ form.email|as_crispy_field }}
                 {{ form.town_or_city|as_crispy_field }}
                 {{ form.country|as_crispy_field }}
                 {{ form.occupation|as_crispy_field }}
-
                 {{ form.about_me|as_crispy_field }}
                 {{ form.strengths|as_crispy_field }}
                 {{ form.weakness|as_crispy_field }}
-                {{ form.education_1|as_crispy_field }}
-                {{ form.education_2|as_crispy_field }}
-
-                {{ form.education_3|as_crispy_field }}
-                {{ form.social_link_1|as_crispy_field }}
-                {{ form.social_link_2|as_crispy_field }}
-                {{ form.social_link_3|as_crispy_field }}
-                {{ form.social_link_4|as_crispy_field }}
-
-                {{ form.job_1|as_crispy_field }}
-                {{ form.company_1|as_crispy_field }}
-                {{ form.time_at_employer_1|as_crispy_field }}
-                {{ form.job_2|as_crispy_field }}
-                {{ form.company_2|as_crispy_field }}
-                {{ form.time_at_employer_2|as_crispy_field }}
-                {{ form.job_3|as_crispy_field }}
-                {{ form.company_3|as_crispy_field }}
-                {{ form.time_at_employer_3|as_crispy_field }}
-
                 {{ form.image|as_crispy_field }}
                 {{ form.video|as_crispy_field }}
+                {{ form.education_1|as_crispy_field }}
+                {{ form.education_2|as_crispy_field }}
+                {{ form.education_3|as_crispy_field }}
+                {{ form.social_type_1|as_crispy_field }}
+                {{ form.social_link_1|as_crispy_field }}
+                {{ form.social_type_2|as_crispy_field }}
+                {{ form.social_link_2|as_crispy_field }}
+                {{ form.social_type_3|as_crispy_field }}
+                {{ form.social_link_3|as_crispy_field }}
+                {{ form.social_type_4|as_crispy_field }}
+                {{ form.social_link_4|as_crispy_field }}
+                {{ form.company_1|as_crispy_field }}
+                {{ form.job_1|as_crispy_field }}
+                {{ form.time_at_employer_1|as_crispy_field }}
+                {{ form.company_2|as_crispy_field }}
+                {{ form.job_2|as_crispy_field }}
+                {{ form.time_at_employer_2|as_crispy_field }}
+                {{ form.company_3|as_crispy_field }}
+                {{ form.job_3|as_crispy_field }}
+                {{ form.time_at_employer_3|as_crispy_field }}
 
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary">Submit</button>
