@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
 /*---------- Toasts ----------*/
-.message-container{
-    position:fixed;
-    top:72px;
-    right:15px;
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
     z-index: 99999999999;
 }
 
 /*---------------------------------------- elements ----------------------------------------*/
 
-hr{
-    width:85%;
+hr {
+    width: 85%;
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
 }
 
 /*---------------------------------------- base.html ----------------------------------------*/
@@ -34,6 +34,7 @@ a{
     padding-bottom: 0;
     height: 7vh;
 }
+
 .nav-logo {
     max-width: 4.375rem;
     padding-bottom: 0.3rem;
@@ -52,22 +53,27 @@ a{
     padding: 0;
 }
 
+.navbar-bg {
+    background-color: #DCDCDC;
+}
+
 .pt-1 {
     padding-top: 0;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 3rem;
-    
+
 }
 
 .nav-link {
-    font-size: 0.7rem!important;
+    font-size: 1.5rem;
 }
 
 .custom-nav-icon {
     display: none;
 }
+
 /* Code to change "Already a member? Log in" background */
 /* .unauthorized-loginrequest {
     background-color: #3D3D3D;
@@ -94,8 +100,8 @@ a{
 }
 
 #footer-overwrite {
-    padding-top: revert!important;
-    padding-bottom: revert!important;
+    padding-top: revert !important;
+    padding-bottom: revert !important;
 }
 
 #footer-content {
@@ -131,14 +137,14 @@ a{
 
 /*----------------------------------------Homepage/index.html ----------------------------------------*/
 /* CONTENT CONTAINERS */
-.content-container{
+.content-container {
     padding-top: 75px;
     padding-bottom: 75px;
 }
 
-.callout-container{
+.callout-container {
     height: 93vh;
-    background: url(../../media/bg.png) no-repeat center center fixed; 
+    background: url(../../media/bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -150,31 +156,32 @@ a{
 }
 
 /* JUMBOTRON */
-.jumbotron{
+.jumbotron {
     background-color: rgba(99, 99, 99, 0.603);
     margin-bottom: 70px;
     margin-top: 3rem;
     padding: 40px;
     border-radius: 30px;
-    box-shadow: 0 40px 50px 0 rgba(88, 88, 88, 0.6), 0 10px 50px 0 rgba(0,0,0,0.7);
+    box-shadow: 0 40px 50px 0 rgba(88, 88, 88, 0.6), 0 10px 50px 0 rgba(0, 0, 0, 0.7);
 }
 
-.jumbotron-header{
+.jumbotron-header {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-.jumbotron .lead{
+.jumbotron .lead {
     color: rgb(36, 36, 36);
 }
+
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
     color: rgb(206, 206, 206);
 }
 
-.jumbo-div{
+.jumbo-div {
     display: inline-block;
     background-color: rgb(235, 235, 235);
     border: 1px solid black;
@@ -182,30 +189,31 @@ a{
     padding: 20px;
     color: rgb(54, 54, 54);
     margin: 10px;
-    box-shadow: 0 40px 50px 0 rgba(148, 148, 148, 0.6), 0 10px 50px 0 rgba(0,0,0,0.7);
+    box-shadow: 0 40px 50px 0 rgba(148, 148, 148, 0.6), 0 10px 50px 0 rgba(0, 0, 0, 0.7);
 }
-.lead{
+
+.lead {
     font-size: medium;
 }
 
-#jumbo-logo{
+#jumbo-logo {
     width: 30%;
     margin-bottom: 20px;
 }
 
 
-.feature{
+.feature {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.feature i{
+.feature i {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
 }
 
-.feature .btn{
+.feature .btn {
     background-color: white;
     border-color: white;
     border-radius: 15px;
@@ -216,20 +224,22 @@ a{
 }
 
 /* BUTTONS */
-.btn--cta{
+.btn--cta {
     font-weight: bold;
     border-radius: 23px;
     width: 175px;
 }
-.btn--grey{
+
+.btn--grey {
     color: rgb(255, 255, 255);
     background-color: rgb(61, 61, 61);
     border: 2px solid white;
 }
+
 .btn--grey:hover,
 .btn--grey:active,
 .btn--grey:focus,
-.btn--grey:active:focus{
+.btn--grey:active:focus {
     color: rgb(0, 0, 0);
     background-color: rgb(185, 185, 185);
     border-color: rgb(168, 168, 168);
@@ -247,52 +257,60 @@ a{
 
 
 
-.profileContainer{
+.profileContainer {
     margin-left: 300px;
     margin-right: 300px;
     background-color: rgb(149, 155, 163);
-    background-image: linear-gradient(to right, rgb(224, 224, 224) , rgb(141, 157, 177));
+    background-image: linear-gradient(to right, rgb(224, 224, 224), rgb(141, 157, 177));
     border-left: 40px solid rgb(226, 247, 219);
     border-right: 3px solid grey;
     border-radius: 70px;
     height: 3000px;
 }
-.fa-cogs{
+
+.fa-cogs {
     color: white;
 }
-.fa-cogs:hover{
+
+.fa-cogs:hover {
     color: grey;
 }
-.profilePicture{
+
+.profilePicture {
     border-radius: 50%;
     border: 5px solid white;
     margin-left: 70px;
     margin-right: 50px;
     margin-bottom: 50px;
 }
-.topInfo{
+
+.topInfo {
     text-align: right;
     width: 850px;
     display: inline-block;
     padding-top: 80px;
     padding-bottom: 100px;
 }
-.profileName{
+
+.profileName {
     font-size: 5em;
 }
-.profileRule{
+
+.profileRule {
     border-top: 3px solid rgb(0, 0, 0);
     margin-top: 50px;
     float: right;
     padding-bottom: 0px;
 }
-.sidebar{
+
+.sidebar {
     width: 400px;
     margin-left: 50px;
     float: left;
     margin-bottom: 100px;
 }
-.infoBox{
+
+.infoBox {
     background-color: white;
     border: 1px solid black;
     border-radius: 30px;
@@ -300,16 +318,19 @@ a{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.infoBox i{
+
+.infoBox i {
     font-size: x-large;
 }
-.maincontent{
+
+.maincontent {
     width: 700px;
     float: right;
     margin-right: 60px;
     margin-bottom: 100px;
 }
-.bottomBlock{
+
+.bottomBlock {
     height: 120px;
 }
 
@@ -323,9 +344,18 @@ a{
     .brand-title {
         display: inline;
     }
+
     .custom-nav-icon {
         display: block;
         text-align: center;
         font-size: 1.5rem;
+    }
+
+    .navbar-bg {
+        background-color: white;
+    }
+
+    .nav-link {
+        font-size: 0.7rem;
     }
 }
