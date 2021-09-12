@@ -1,1 +1,1 @@
-web: gunicorn Neuronet.wsgi:application
+web: gunicorn neuronet.wsgi:application
