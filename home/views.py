@@ -6,7 +6,7 @@ def index(request):
     """ A view to return the index page """
     profiles = UserProfile.objects.all()
     companies = CompanyProfile.objects.all()
-
+    profile = ''
     for p in profiles:
         if p.user == request.user:
             profile = p
@@ -14,8 +14,6 @@ def index(request):
                 for c in companies:
                     if c.user == request.user:
                         profile = c
-        else:
-            profile = ''
 
     template = 'home/index.html'
     context = {
