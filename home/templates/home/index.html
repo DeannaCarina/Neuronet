@@ -5,7 +5,7 @@
 
 {% block content %}
 <!-- CALLOUT -->
-<div class="callout-container">    
+<div class="callout-container container-fluid">    
   <div class="row">
     <div class="col-12">
       <section class="callout jumbotron text-center">
@@ -15,7 +15,8 @@
 
 
 <!-- If the user is authenticated through Allauth but has not created a profile yet -->
-            {% if profile == '' %} <!-- If profile var comes through empty show create profile links -->
+               <!-- If profile var comes through empty show create profile links -->
+               {% if profile == '' %}
               <div class="left-jumbo jumbo-div">
                 <h2>Businesses</h2>
                 <p class="lead">Create an account to display your open job roles and connect with incredible people.</p>
@@ -31,16 +32,16 @@
 
 
 <!-- If the user is authenticated through Allauth and has created a profile --> 
-            {% else %}
+             {% else %}
 
           
               <!-- What kind of photo/message/data/link do we want active users to see???-->
+              
 
-
-            {% endif %} 
+            {% endif %}
 <!-- If the user has not created a username and password through Allauth -->
           {% else %}
-
+            
               
 
 
