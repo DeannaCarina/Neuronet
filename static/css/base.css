@@ -155,7 +155,6 @@ a{
 .jumbotron{
     background-color: rgba(99, 99, 99, 0.603);
     margin-bottom: 70px;
-    width: 1000px;
     padding: 40px;
     border-radius: 30px;
     box-shadow: 0 40px 50px 0 rgba(88, 88, 88, 0.6), 0 10px 50px 0 rgba(0,0,0,0.7);
@@ -177,7 +176,6 @@ a{
 }
 
 .jumbo-div{
-    width: 400px;
     display: inline-block;
     background-color: rgb(235, 235, 235);
     border: 1px solid black;
