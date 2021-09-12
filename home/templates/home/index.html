@@ -11,20 +11,41 @@
       <section class="callout jumbotron text-center">
         <img src="../../../media/logonotext.png" alt="Neuronet logo" id="jumbo-logo">
           <h1 class="jumbotron-header">Get connected with brilliant minds.</h1>
-          {% if request.user.is_authenticated %}
-            <div class="left-jumbo jumbo-div">
-              <h2>Businesses</h2>
-              <p class="lead">Create an account to display your open job roles and connect with incredible people.</p>
-              <button class="btn btn-lg btn--cta btn--grey" data-bs-toggle="modal" data-bs-target="#signUpModalBusiness">Sign Up!</button>
-            </div>
-            <div class="right-jumbo jumbo-div">
-              <h2>Job Seekers</h2>
-              <p class="lead">Create an account to create your profile and start searching for your next role.</p>
-              <button class="btn btn-lg btn--cta btn--grey" data-bs-toggle="modal" data-bs-target="#signUpModalSeeker">Sign Up!</button>
-            </div>   
+          {% if request.user.is_authenticated %} <!-- This checks to see if user has active username and password -->
+
+
+<!-- If the user is authenticated through Allauth but has not created a profile yet -->
+            {% if profile == '' %} <!-- If profile var comes through empty show create profile links -->
+              <div class="left-jumbo jumbo-div">
+                <h2>Businesses</h2>
+                <p class="lead">Create an account to display your open job roles and connect with incredible people.</p>
+                <a class="btn btn-lg btn--cta btn--grey" href="{% url 'create_profile' form_type='companyProfile' %}">Sign Up!</a>
+              </div>
+              <div class="right-jumbo jumbo-div">
+                <h2>Job Seekers</h2>
+                <p class="lead">Create an account to create your profile and start searching for your next role.</p>
+                <a class="btn btn-lg btn--cta btn--grey" href="{% url 'create_profile' form_type='userProfile' %}">Sign Up!</a>
+              </div> 
+
+
+
+
+<!-- If the user is authenticated through Allauth and has created a profile --> 
             {% else %}
+
+          
+              <!-- What kind of photo/message/data/link do we want active users to see???-->
+
+
+            {% endif %} 
+<!-- If the user has not created a username and password through Allauth -->
+          {% else %}
+
               
-            {% endif %}
+
+
+
+          {% endif %}
       </section>
     </div>
   </div>
