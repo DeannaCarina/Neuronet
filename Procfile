@@ -1,0 +1,1 @@
+web: gunicorn neuronet2021.wsgi:application
