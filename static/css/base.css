@@ -53,14 +53,23 @@ a{
 }
 
 .pt-1 {
-    padding-top: 0!important;
+    padding-top: 0;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 3rem;
+    
 }
 
+.nav-link {
+    font-size: 0.7rem!important;
+}
+
+.custom-nav-icon {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}
 /* Code to change "Already a member? Log in" background */
 /* .unauthorized-loginrequest {
     background-color: #3D3D3D;
@@ -143,7 +152,7 @@ a{
 }
 
 /* JUMBOTRON */
-.jumbotron
+.jumbotron{
     background-color: rgba(99, 99, 99, 0.603);
     margin-bottom: 70px;
     width: 1000px;
@@ -239,6 +248,73 @@ a{
 
 
 
+
+
+.profileContainer{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(149, 155, 163);
+    background-image: linear-gradient(to right, rgb(224, 224, 224) , rgb(141, 157, 177));
+    border-left: 40px solid rgb(226, 247, 219);
+    border-right: 3px solid grey;
+    border-radius: 70px;
+    height: 3000px;
+}
+.fa-cogs{
+    color: white;
+}
+.fa-cogs:hover{
+    color: grey;
+}
+.profilePicture{
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.topInfo{
+    text-align: right;
+    width: 850px;
+    display: inline-block;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.profileName{
+    font-size: 5em;
+}
+.profileRule{
+    border-top: 3px solid rgb(0, 0, 0);
+    margin-top: 50px;
+    float: right;
+    padding-bottom: 0px;
+}
+.sidebar{
+    width: 400px;
+    margin-left: 50px;
+    float: left;
+    margin-bottom: 100px;
+}
+.infoBox{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.infoBox i{
+    font-size: x-large;
+}
+.maincontent{
+    width: 700px;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 100px;
+}
+.bottomBlock{
+    height: 120px;
+}
 
 
 
