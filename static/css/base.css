@@ -74,6 +74,24 @@ a {
     display: none;
 }
 
+/* To Top Button */
+#toTopBtn {
+    position: fixed;
+    bottom: 4rem;
+    right: 0.5rem;
+    z-index: 100;
+    display: none;
+}
+
+#toTopBtn i {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    padding-top: .5rem;
+    font-size: 2rem;
+    background-color: #DCDCDC;
+}
+
 /* Code to change "Already a member? Log in" background */
 /* .unauthorized-loginrequest {
     background-color: #3D3D3D;
