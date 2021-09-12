@@ -36,10 +36,6 @@
       </div>
       <div class="modal-body">
       <form>
-        <div class="form-group">
-          <label for="companyName">Company Name</label>
-          <input type="companyName" class="form-control" id="companyName" placeholder="Enter Company Name">
-        </div>
         <div class="modal-body">
             <form method="POST" enctype="multipart/form-data" action="{% url 'create_profile' form_type='companyProfile' %}">
                 {% csrf_token %}
@@ -66,58 +62,9 @@
   </div>
 </div>  
 <!-- /.MODAL -->
-<!-- MODAL FOR JOB SEEKERS-->
-<div class="modal" tabindex="-1" role="dialog" id="userProfileModal" aria-labelledby="userProfileModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="userProfileModalLabel">Sign up to Neuronet as a Job Seeker</h5>
-            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body">
-            <form method="POST" enctype="multipart/form-data" action="{% url 'create_profile' form_type='userProfile' %}">
-                {% csrf_token %}
-                {{ form.full_name|as_crispy_field }}
-                {{ form.email|as_crispy_field }}
-                {{ form.town_or_city|as_crispy_field }}
-                {{ form.country|as_crispy_field }}
-                {{ form.occupation|as_crispy_field }}
-                {{ form.about_me|as_crispy_field }}
-                {{ form.strengths|as_crispy_field }}
-                {{ form.weakness|as_crispy_field }}
-                {{ form.image|as_crispy_field }}
-                {{ form.video|as_crispy_field }}
-                {{ form.education_1|as_crispy_field }}
-                {{ form.education_2|as_crispy_field }}
-                {{ form.education_3|as_crispy_field }}
-                {{ form.social_type_1|as_crispy_field }}
-                {{ form.social_link_1|as_crispy_field }}
-                {{ form.social_type_2|as_crispy_field }}
-                {{ form.social_link_2|as_crispy_field }}
-                {{ form.social_type_3|as_crispy_field }}
-                {{ form.social_link_3|as_crispy_field }}
-                {{ form.social_type_4|as_crispy_field }}
-                {{ form.social_link_4|as_crispy_field }}
-                {{ form.company_1|as_crispy_field }}
-                {{ form.job_1|as_crispy_field }}
-                {{ form.time_at_employer_1|as_crispy_field }}
-                {{ form.company_2|as_crispy_field }}
-                {{ form.job_2|as_crispy_field }}
-                {{ form.time_at_employer_2|as_crispy_field }}
-                {{ form.company_3|as_crispy_field }}
-                {{ form.job_3|as_crispy_field }}
-                {{ form.time_at_employer_3|as_crispy_field }}
 
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- /.MODAL -->
+
+
 
 
 

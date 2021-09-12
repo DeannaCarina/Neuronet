@@ -42,7 +42,12 @@ def create_profile(request, form_type):
 
 
 @login_required
-def profiles(request):
+def profiles(request, profile):
     """ View to render profile pages """
 
-    return render(request, 'profiles/profile.html')
+    template = 'profiles/profile.html'
+
+    context = {
+    }
+
+    return render(request, template, context)
