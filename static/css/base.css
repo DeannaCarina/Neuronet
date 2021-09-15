@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
 /*---------- Toasts ----------*/
-.message-container{
-    position:fixed;
-    top:72px;
-    right:15px;
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
     z-index: 99999999999;
 }
 
 /*---------------------------------------- elements ----------------------------------------*/
 
-hr{
-    width:85%;
+hr {
+    width: 85%;
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
 }
 
 /*---------------------------------------- base.html ----------------------------------------*/
@@ -34,6 +34,7 @@ a{
     padding-bottom: 0;
     height: 7vh;
 }
+
 .nav-logo {
     max-width: 4.375rem;
     padding-bottom: 0.3rem;
@@ -52,6 +53,10 @@ a{
     padding: 0;
 }
 
+.navbar-bg {
+    background-color: #DCDCDC;
+}
+
 .pt-1 {
     padding-top: 0;
 }
@@ -62,13 +67,11 @@ a{
 }
 
 .nav-link {
-    font-size: 0.7rem!important;
+    font-size: 1.5rem;
 }
 
 .custom-nav-icon {
-    display: block;
-    text-align: center;
-    font-size: 1.5rem;
+    display: none;
 }
 /* Code to change "Already a member? Log in" background */
 /* .unauthorized-loginrequest {
@@ -96,8 +99,8 @@ a{
 }
 
 #footer-overwrite {
-    padding-top: revert!important;
-    padding-bottom: revert!important;
+    padding-top: revert !important;
+    padding-bottom: revert !important;
 }
 
 #footer-content {
@@ -126,6 +129,36 @@ a{
 
 
 
+/* ACCOUNTS LOGOUT */
+.confirm-action {
+    background-color: #f8f9faba;
+    margin: auto;
+    width: 50%;
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.confirm-container {
+    background: url(/media/bg.png) center center fixed;
+    display: flex;
+    min-height: 82vh;
+    background-size: cover;
+}
+
+.signout-logo {
+    max-width: 5.375rem;
+    padding-bottom: 1rem;
+}
+
+#signout-button {
+    background-color: #191919;
+    border: 1px solid #191919;
+    border-radius: 10px;
+    color: white;
+}
+
 
 
 
@@ -133,14 +166,14 @@ a{
 
 /*----------------------------------------Homepage/index.html ----------------------------------------*/
 /* CONTENT CONTAINERS */
-.content-container{
+.content-container {
     padding-top: 75px;
     padding-bottom: 75px;
 }
 
-.callout-container{
+.callout-container {
     height: 93vh;
-    background: url(../../media/bg.png) no-repeat center center fixed; 
+    background: url(../../media/bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -152,13 +185,13 @@ a{
 }
 
 /* JUMBOTRON */
-.jumbotron{
+.jumbotron {
     background-color: rgba(99, 99, 99, 0.603);
     margin-bottom: 70px;
-    width: 1000px;
     padding: 40px;
     border-radius: 30px;
-    box-shadow: 0 40px 50px 0 rgba(88, 88, 88, 0.6), 0 10px 50px 0 rgba(0,0,0,0.7);
+    box-shadow: 0 40px 50px 0 rgba(88, 88, 88, 0.6), 0 10px 50px 0 rgba(0, 0, 0, 0.7);
+    margin-top: 3rem;
 }
 
 .jumbotron-header{
@@ -177,7 +210,6 @@ a{
 }
 
 .jumbo-div{
-    width: 400px;
     display: inline-block;
     background-color: rgb(235, 235, 235);
     border: 1px solid black;
@@ -216,6 +248,28 @@ a{
     font-weight: bold;
     margin-top: 10px;
     color: grey;
+}
+
+.index-content {
+    margin-bottom: 6rem;
+}
+
+.testimonial-image {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.testimonial-hr {
+    display: block;
+    margin: auto;
+    background-color: unset;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.testimonial-hr {
+    display: none;
 }
 
 /* BUTTONS */
@@ -325,5 +379,18 @@ a{
 @media screen and (min-width: 990px) {
     .brand-title {
         display: inline;
+    }
+    .custom-nav-icon {
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .navbar-bg {
+        background-color: white;
+    }
+
+    .nav-link {
+        font-size: 0.7rem;
     }
 }

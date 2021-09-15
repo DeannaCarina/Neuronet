@@ -1,37 +1,91 @@
 {% extends "base.html" %}
 {% load static %}
 {% load crispy_forms_tags %}
-
-
 {% block content %}
 <!-- CALLOUT -->
-<div class="callout-container">    
+<div class="callout-container container-fluid">    
   <div class="row">
     <div class="col-12">
       <section class="callout jumbotron text-center">
         <img src="../../../media/logonotext.png" alt="Neuronet logo" id="jumbo-logo">
           <h1 class="jumbotron-header">Get connected with brilliant minds.</h1>
-          {% if request.user.is_authenticated %}
-            <div class="left-jumbo jumbo-div">
-              <h2>Businesses</h2>
-              <p class="lead">Create an account to display your open job roles and connect with incredible people.</p>
-              <button class="btn btn-lg btn--cta btn--grey" data-bs-toggle="modal" data-bs-target="#signUpModalBusiness">Sign Up!</button>
-            </div>
-            <div class="right-jumbo jumbo-div">
-              <h2>Job Seekers</h2>
-              <p class="lead">Create an account to create your profile and start searching for your next role.</p>
-              <button class="btn btn-lg btn--cta btn--grey" data-bs-toggle="modal" data-bs-target="#signUpModalSeeker">Sign Up!</button>
-            </div>   
-            {% else %}
+          {% if request.user.is_authenticated %} <!-- This checks to see if user has active username and password -->
+<!-- If the user is authenticated through Allauth but has not created a profile yet -->
+               <!-- If profile var comes through empty show create profile links -->
+               {% if profile == '' %}
+              <div class="left-jumbo jumbo-div">
+                <h2>Businesses</h2>
+                <p class="lead">Create an account to display your open job roles and connect with incredible people.</p>
+                <a class="btn btn-lg btn--cta btn--grey" href="{% url 'create_profile' form_type='companyProfile' %}">Sign Up!</a>
+              </div>
+              <div class="right-jumbo jumbo-div">
+                <h2>Job Seekers</h2>
+                <p class="lead">Create an account to create your profile and start searching for your next role.</p>
+                <a class="btn btn-lg btn--cta btn--grey" href="{% url 'create_profile' form_type='userProfile' %}">Sign Up!</a>
+              </div> 
+<!-- If the user is authenticated through Allauth and has created a profile --> 
+             {% else %}
+          
+              <!-- What kind of photo/message/data/link do we want active users to see???-->
               
             {% endif %}
+<!-- If the user has not created a username and password through Allauth -->
+          {% else %}
+          <div class="jumbo-div">
+            <h5>Your next great opportunity or new hire could be just a click away.</h5>
+            <a class="btn btn-lg btn--cta btn--grey" href="{% url 'account_signup' %}">Register Now!</a>
+          </div>
+              
+          {% endif %}
       </section>
     </div>
   </div>
 </div>   
 <!-- /.CALLOUT --> 
+<!-- PAGE CONTENT -->
+{% if request.user.is_authenticated %}  
+  <div class="container-fluid index-content">
+    <div class="row">
+      <div class="col-12 col-md-6">News</div>
+      <div class="col-12 col-md-6">Job Lisitngs(?)</div>
+    </div>
+  </div>
+{% else %}
+  <div class="container-fluid index-content">
+    <div class="row">
+      <div class="col-12 text-center mb-3 mt-3">
+        <h2>User Testimonials</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <img src="../../../media/people/1-200x200.jpeg" alt="" class="rounded-circle mb-2 testimonial-image">
+        <p class="fw-bold text-center mt-3">Janet 22, Chicago</p>
+        <p class="text-center">I recently graduated college and was dreading entering the job market but Neuronet has alleviated the majority of fears. 
+          Finding an online recruitment tool specifically geared towards neurodiverse individuals like myself has changed my life. Thank you Neuronet! </p>
+        <hr class="testimonial-hr mb-3">
+      </div>
+      <div class="col-12 col-md-4">
+        <img src="../../../media/people/2-200x200.jpeg" alt="" class="rounded-circle testimonial-image">
+        <p class="fw-bold text-center mt-3">Alec 38, London</p>
+        <p class="text-center">Searching for a job is stressful for most people, even more so for people who are autistic!
+          I’m terrible at answering interviewing questions as I struggle with verbal communication.
+          Neuronet's pre-recorded interview questions feature allowed me the time and space to overcome this challenge. </p>
+          <hr class="testimonial-hr mb-3">
+      </div>
+      <div class="col-12 col-md-4">
+        <img src="../../../media/people/3-200x200.jpeg" alt="" class="rounded-circle testimonial-image">
+        <p class="fw-bold text-center mt-3">Mark 50, Brisbane</p>
+        <p class="text-center">I have been navigating the pitfalls and traps of the job market for over 30 years with ADHD.
+          I always feared moving jobs because of the recruitment process that is often geared towards neurotypical individuals.
+          I just landed a new position at an accountancy firm that’s more than happy to provide me with the accommodations I need. So glad I found Neuronet. </p>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
 <!-- MODAL FOR BUSINESSES-->
-<div class="modal" tabindex="-1" role="dialog" id="signUpModalBusiness">
+<!-- <div class="modal" tabindex="-1" role="dialog" id="signUpModalBusiness">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -63,10 +117,10 @@
       </div>
     </div>
   </div>
-</div>  
+</div>   -->
   <!-- /.MODAL -->
   <!-- MODAL FOR JOB SEEKERS-->
-<div class="modal" tabindex="-1" role="dialog" id="signUpModalSeeker">
+<!-- <div class="modal" tabindex="-1" role="dialog" id="signUpModalSeeker">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -83,12 +137,6 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- /.MODAL -->
-
-
-
-
-
-
 {% endblock %}

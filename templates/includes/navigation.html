@@ -8,7 +8,7 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse unauthorized-loginrequest" id="navbarSupportedContent">
+        <div class="navbar-bg collapse navbar-collapse unauthorized-loginrequest" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                 {% if request.user.is_authenticated %}
                     <li class="nav-item">
@@ -16,7 +16,7 @@
                     </li>
                     <li class="nav-item">
 
-                        <a class="nav-link" href="{% url 'create_profile' %}">Profile</a>
+                        <a class="nav-link" href="{% url 'profiles' %}"><i class="fas fa-user custom-nav-icon"></i>Profile</a>
 
                     </li>
                     <li class="nav-item">
@@ -29,11 +29,11 @@
                     {% endif %}
             </ul>
                     <span class="nav-item">
-                        <a class="nav-link text-muted log-out" href="{% url 'account_logout' %}"><i class="fas fa-sign-out-alt custom-nav-icon"></i>Log out</i></a>
+                        <a class="nav-link text-muted log-in-out" href="{% url 'account_logout' %}"><i class="fas fa-sign-out-alt custom-nav-icon"></i>Log out</i></a>
                     </span>
                 {% else %}    
                     <span class="navbar-item pt-1">
-                        <a class="nav-link text-dark" id="text-dark-overwrite"  href="{% url 'account_login' %}">Already a member? <span class="text-primary" id="text-primary-overwrite">Log in</span></a>
+                        <a class="nav-link text-dark log-in-out" id="text-dark-overwrite"  href="{% url 'account_login' %}">Already a member? <span class="text-primary" id="text-primary-overwrite">Log in</span></a>
                     </span>
                 {% endif %}
         </div>

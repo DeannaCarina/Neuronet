@@ -46,3 +46,16 @@ def profiles(request):
     """ View to render profile pages """
 
     return render(request, 'profiles/profile.html')
+
+# NEW CODE SINCE DEPLOYMENT
+
+# @login_required
+# def profiles(request, profile):
+#     """ View to render profile pages """
+
+#     template = 'profiles/profile.html'
+
+#     context = {
+#     }
+
+#     return render(request, template, context)
