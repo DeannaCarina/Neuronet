@@ -302,79 +302,102 @@ a {
 
 
 
-
-
-.profileContainer{
-    margin-left: 300px;
-    margin-right: 300px;
-    background-color: rgb(149, 155, 163);
-    background-image: linear-gradient(to right, rgb(224, 224, 224) , rgb(141, 157, 177));
-    border-left: 40px solid rgb(226, 247, 219);
-    border-right: 3px solid grey;
-    border-radius: 70px;
-    height: 3000px;
+.profile-picture-container{
+    background-color: rgba(99, 99, 99, 0.603);
+    box-shadow: 0 40px 50px 0 rgba(88, 88, 88, 0.6), 0 10px 50px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    min-height: 315px;
+    min-width: 315px;
+    max-height: 315px;
+    max-width: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto;
 }
-.fa-cogs{
+.profile-picture{
+    background: url(../../media/people/2-400x400.jpeg) no-repeat center center;
+    background-size: cover;
+    min-height: 290px;
+    max-height: 290px;
+    min-width: 290px;
+    max-width: 290px;
+    border-radius: 50%;
+
+    filter: grayscale(100%);
+}
+.profile-name-and-role{
+    text-align: right;
+}
+.profile-name{
+    font-size: 5rem;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.profile-role{
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-right: 100px;
+}
+.nav-full-container{
+    text-align: center;
+    margin-right: 10px;
+}
+.profile-nav{
+    background-color: rgba(99, 99, 99, 0.603);
+    border-radius: 10px;
+}
+.profile-nav:hover{
+    box-shadow: 0 40px 50px 0 rgba(88, 88, 88, 0.6), 0 10px 50px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+.profile-nav a{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
     color: white;
 }
-.fa-cogs:hover{
-    color: grey;
+.profile-nav a:hover{
+    color: black;
 }
-.profilePicture{
-    border-radius: 50%;
-    border: 5px solid white;
-    margin-left: 70px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+.profile-nav .fas{
+    font-size: 20px;
+    display: block;
 }
-.topInfo{
-    text-align: right;
-    width: 850px;
-    display: inline-block;
-    padding-top: 80px;
-    padding-bottom: 100px;
-}
-.profileName{
-    font-size: 5em;
-}
-.profileRule{
-    border-top: 3px solid rgb(0, 0, 0);
-    margin-top: 50px;
-    float: right;
-    padding-bottom: 0px;
-}
-.sidebar{
-    width: 400px;
-    margin-left: 50px;
-    float: left;
-    margin-bottom: 100px;
-}
-.infoBox{
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.infoBox i{
-    font-size: x-large;
-}
-.maincontent{
-    width: 700px;
-    float: right;
-    margin-right: 60px;
-    margin-bottom: 100px;
-}
-.bottomBlock{
-    height: 120px;
-}
-
-
-
-
-
-
+@-webkit-keyframes hvr-back-pulse {
+    50% {
+      background-color: rgba(109, 109, 109, 0.75);
+    }
+  }
+  @keyframes hvr-back-pulse {
+    50% {
+      background-color: rgba(109, 109, 109, 0.75);
+    }
+  }
+  .hvr-back-pulse {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+    -webkit-animation-name: hvr-back-pulse;
+    animation-name: hvr-back-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: #a5a5a5;
+    background-color: #a5a5a5;
+    color: white;
+  }
 /*---------------------------------------- Media Queries ----------------------------------------*/
 @media screen and (min-width: 990px) {
     .brand-title {
