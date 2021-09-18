@@ -338,17 +338,34 @@ a {
     font-size: 2rem;
     text-transform: uppercase;
     padding-right: 100px;
+    margin-bottom: 50px;
 }
 .nav-full-container{
     text-align: center;
-    margin-right: 10px;
+}
+.nav-1{
+    background-color: #6182CB;
+}
+.nav-2{
+    background-color: #1EAAD2;
+}
+.nav-3{
+    background-color: #EFB83A;
+}
+.nav-4{
+    background-color: rgb(231, 146, 49);
+}
+.nav-5{
+    background-color:#D4739A;
+}
+.nav-6{
+    background-color: #81AA84;
 }
 .profile-nav{
-    background-color: rgba(99, 99, 99, 0.603);
     border-radius: 10px;
 }
 .profile-nav:hover{
-    box-shadow: 0 40px 50px 0 rgba(88, 88, 88, 0.6), 0 10px 50px 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 0 10px 10px 0 rgba(88, 88, 88, 0.6), 0 10px 10px 0 rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
 .profile-nav a{
@@ -378,8 +395,8 @@ a {
   }
   .hvr-back-pulse {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.0s;
+    transition-duration: 0.0s;
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
   }
@@ -389,7 +406,7 @@ a {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
+    animation-delay: 0.0s;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
@@ -398,6 +415,8 @@ a {
     background-color: #a5a5a5;
     color: white;
   }
+
+
 /*---------------------------------------- Media Queries ----------------------------------------*/
 @media screen and (min-width: 990px) {
     .brand-title {
