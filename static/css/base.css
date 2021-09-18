@@ -300,7 +300,9 @@ a {
 
 
 /*---------------------------------------- Profiles/profile.html ----------------------------------------*/
-
+body{
+    overflow-x: hidden;
+}
 .profile-picture-container{
     background-color: rgba(99, 99, 99, 0.603);
     box-shadow: 0 40px 50px 0 rgba(88, 88, 88, 0.6), 0 10px 50px 0 rgba(0, 0, 0, 0.7);
@@ -342,24 +344,7 @@ a {
 .nav-full-container{
     text-align: center;
 }
-.nav-1{
-    background-color: #EFB83A;
-}
-.nav-2{
-    background-color: rgb(231, 146, 49);
-}
-.nav-3{
-    background-color: #D4739A;
-}
-.nav-4{
-    background-color: #81AA84;
-}
-.nav-5{
-    background-color:#6182CB;
-}
-.nav-6{
-    background-color: #1EAAD2;
-}
+
 .profile-nav{
     border-radius: 10px;
 }
@@ -373,6 +358,9 @@ a {
     padding-bottom: 20px;
     font-size: 14px;
     text-transform: uppercase;
+    color: rgb(238, 238, 238);
+}
+.profile-nav a:focus{
     color: white;
 }
 .profile-nav a:hover{
@@ -382,39 +370,24 @@ a {
     font-size: 20px;
     display: block;
 }
-@-webkit-keyframes hvr-back-pulse {
-    50% {
-      background-color: rgba(109, 109, 109, 0.75);
-    }
-  }
-  @keyframes hvr-back-pulse {
-    50% {
-      background-color: rgba(109, 109, 109, 0.75);
-    }
-  }
-  .hvr-back-pulse {
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.0s;
-    transition-duration: 0.0s;
-    -webkit-transition-property: color, background-color;
-    transition-property: color, background-color;
-  }
-  .hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
-    -webkit-animation-name: hvr-back-pulse;
-    animation-name: hvr-back-pulse;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.0s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    background-color: #a5a5a5;
-    background-color: #a5a5a5;
-    color: white;
-  }
-
+.nav-1{
+    background: radial-gradient(#7e611f, #EFB83A);
+}
+.nav-2{
+    background: radial-gradient(#754744, #DD817D);
+}
+.nav-3{
+    background: radial-gradient(#6b3a4d, #D4739A);
+}
+.nav-4{
+    background: radial-gradient(#3d503e, #81AA84);
+}
+.nav-5{
+    background: radial-gradient(#2c3c5c, #6182CB);
+}
+.nav-6{
+    background: radial-gradient(#0c404e, #1EAAD2);
+}
 
 .section-title-cont{
     text-align: center;
@@ -425,6 +398,10 @@ a {
     text-transform: uppercase;
 }
 
+.heading-logo{
+    width: 50px;
+    height: auto;
+}
 
 
 
@@ -477,9 +454,19 @@ button[type="submit"]{
 }
 
 
+#backtotop{
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    font-size: 50px;
+}
+#backtotop a{
+    color: grey;
+}
 
-
-
+.bottom-block{
+    height: 80px;
+}
 
 /*---------------------------------------- Media Queries ----------------------------------------*/
 @media screen and (min-width: 990px) {
