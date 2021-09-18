@@ -500,3 +500,21 @@ button[type="submit"]{
         font-size: 0.7rem;
     }
 }
+
+@media screen and (max-width: 1000px){
+    .center-form{
+        max-width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .center-form{
+        max-width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 340px){
+    button[type="submit"]{
+        width: 90%;
+    }
+  }
