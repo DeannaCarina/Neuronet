@@ -6,33 +6,41 @@ from .forms import Profile, Company
 
 
 @login_required
-def create_profile(request, form_type):
+def company_profile(request):
     """ view to create user profile """
 
-    # Check to see if form is userProfile or companyProfile
-    if form_type == 'userProfile':
+    if request.method == "POST":
+        form = Company(request.POST)
+        if form.is_valid():
+            form.save()
+            return(redirect('home'))
 
-        if request.method == "POST":
-            form = Profile(request.POST)
-            if form.is_valid():
-                form.save()
-                return(redirect('profiles'))
+    else:
+        form = Company()
 
-        else:
-            form = Profile()
+    template = 'profiles/company_profile.html'
 
-    elif form_type == 'companyProfile':
+    context = {
+        'form': form,
+    }
 
-        if request.method == "POST":
-            form = Company(request.POST)
-            if form.is_valid():
-                form.save()
-                return(redirect('home'))
+    return render(request, template, context)
 
-        else:
-            form = Company()
 
-    template = 'profiles/create_profile.html'
+@login_required
+def user_profile(request):
+    """ view to create user profile """
+
+    if request.method == "POST":
+        form = Profile(request.POST)
+        if form.is_valid():
+            form.save()
+            return(redirect('home'))
+
+    else:
+        form = Profile()
+
+    template = 'profiles/user_profile.html'
 
     context = {
         'form': form,
