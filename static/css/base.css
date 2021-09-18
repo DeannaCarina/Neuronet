@@ -301,8 +301,6 @@ a {
 
 /*---------------------------------------- Profiles/profile.html ----------------------------------------*/
 
-
-
 .profile-picture-container{
     background-color: rgba(99, 99, 99, 0.603);
     box-shadow: 0 40px 50px 0 rgba(88, 88, 88, 0.6), 0 10px 50px 0 rgba(0, 0, 0, 0.7);
@@ -345,22 +343,22 @@ a {
     text-align: center;
 }
 .nav-1{
-    background-color: #6182CB;
-}
-.nav-2{
-    background-color: #1EAAD2;
-}
-.nav-3{
     background-color: #EFB83A;
 }
-.nav-4{
+.nav-2{
     background-color: rgb(231, 146, 49);
 }
+.nav-3{
+    background-color: #D4739A;
+}
+.nav-4{
+    background-color: #81AA84;
+}
 .nav-5{
-    background-color:#D4739A;
+    background-color:#6182CB;
 }
 .nav-6{
-    background-color: #81AA84;
+    background-color: #1EAAD2;
 }
 .profile-nav{
     border-radius: 10px;
@@ -416,6 +414,71 @@ a {
     background-color: #a5a5a5;
     color: white;
   }
+
+
+.section-title-cont{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+.contact-heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top: 0px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(200, 200, 200);
+    color: rgb(34, 76, 138);
+}
+
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.contact-form{
+    background-color: rgb(34, 76, 138);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    
+}
+.form-control:hover,
+.form-control:active,
+.form-control:focus{
+    background-color: rgb(219, 235, 255);
+}
+
+
+
+
 
 
 /*---------------------------------------- Media Queries ----------------------------------------*/

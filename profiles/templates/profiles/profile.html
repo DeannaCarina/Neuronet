@@ -3,7 +3,7 @@
 
 {% block content %}
 
-<div class="row picture-and-name">
+<div class="row picture-name-nav">
     <div class="col-md-3 profile-picture-container">
         <div class="profile-picture"></div>
     </div>
@@ -33,6 +33,55 @@
             </ul>
         </div>
     </div>
+</div>
+<div class="row">
+    <div class="col section-title-cont">
+        <h2 class="uppercase">About Me</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col section-title-cont">
+        <h2 class="uppercase">Skills</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col section-title-cont">
+        <h2 class="uppercase">Work & Education</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col section-title-cont">
+        <h2 class="uppercase">Video Uploads</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col section-title-cont">
+        <h2 class="uppercase">Contact Me</h2>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h3 class="contact-heading uppercase text-center">Need to contact me?</h3>
+            <h5 class="uppercase text-center">Please use the form below.</h5>
 
+            <div class="center-form">
+                <form class="contact-form">
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Address" required/>
+                    <textarea rows="10" name="message" id="message" class="form-control" placeholder="Your message" required></textarea>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn btn-secondary">Send <i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col section-title-cont">
+        <h2 class="uppercase">CV Download</h2>
+    </div>
 </div>
 {% endblock %}
